@@ -1,5 +1,5 @@
 .app {
-    background: #f1f1f1;
+    background: url(../img/Background.gif);
     display: grid;  
     font-family: Arial, Helvetica, sans-serif;
     grid-template-areas: 
@@ -13,12 +13,21 @@
 
 .cabecalho {
     grid-area:cabecalho;
+    align-items: center;
+    display: flex;
+    padding: 0 2rem;
 }
  
 .conteudo {
     grid-area: conteudo;
+    padding: 0 2rem;
 }
 
 .rodape {
+    background: #fdfdfd;
+    color: #333333;
+    font-size: .8rem;
+    text-align: center;
     grid-area: rodape;
+    padding: 1rem;
 }
